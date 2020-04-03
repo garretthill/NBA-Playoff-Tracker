@@ -1,0 +1,897 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   
+    {{ headContent() }}
+
+    <link href="dumb928.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titan+One&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div id='front_page'>
+
+
+  <div class='some-page-wrapper'>
+    <div class='row100'>
+      <div class='column100'>
+        <div class='orange-column1'>
+          <div class="big-text">
+          <h1>WILL THEY MAKE THE PLAYOFFS?</h1>
+          Pick a team, predict their games, and see if they make the playoffs.<br>
+          The rest of the season will be simulated using 538's predictions. 
+          <br>
+          <br>
+          To start, first choose your conference below. Good Luck. 
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class='row100'>
+        <div class='column101'>
+          <div class='green-column1'>
+            <div class='picture-column1'>
+             
+          </div>
+          <div class='text-column1'>
+          <div class="east-button">
+           
+          </div>
+          </div>
+          </div>
+    </div>
+    <div class='column101'>
+      <div class='blue-column1'>
+        <div class='text-column1'>
+          
+        </div>
+        <div class='picture-column1'>
+        
+        </div>
+        
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+
+<div id="how_it_works">
+    <div class='jumbotron3'><div class="big-text3"><h1>How It Works</h1></div></div>
+    <div class='packages3'>
+<div id='flexcontainer_how_it_works'>
+    <div class='row333'>
+    <div class="column333">
+        <img src="jersey_icon.png">
+        <div class="how-to-text"><h1>Pick A Team</h1>
+            <p>Select from any of the 30 NBA teams, pick your favorite, pick your most hated, or pick at random</p>
+            
+            </div>
+    </div>
+      
+    <div class="column333">
+        <img src="ball_icon.png">
+        <div class="how-to-text"><h1>Predict Their Games</h1>
+            <p>Predict your team's games. Will they finish the season on a ten game win streak or struggle down the stretch.
+                 </p>
+            
+            </div>
+    </div>
+        
+    <div class="column333">
+        <img src="net_icon.png">
+        <div class="how-to-text"><h1>See The Results</h1>
+            <p>See where your team finishes based on your predictions. 
+                 Each time you play you'll get brand new results!</p>
+            
+            </div>
+    
+    </div>
+  </div>
+
+  
+
+  </div>
+
+
+
+
+
+  </div>
+</div>
+
+<div class='jumbotron3'><div class="big-text3"><h1>Choose Your Conference</h1></div></div>
+
+<div id='flexcontainercentral15'>
+    
+    <div class='row15'>
+        <label for="West" class="column15">      
+        <div class='bucks-column15'>
+            <div class="bucks-border-column15">
+            
+        </div>
+        </div>
+        <input name="Conf" id="West" value="West" onclick="myFunctionwest()" type="radio">
+      </label>
+
+      <label for="East" class="column15">      
+        <div class='bulls-column15'>
+            <div class="bulls-border-column15">
+            
+        </div>
+        </div>
+        <input name="Conf" id="East" value="East" onclick="myFunctioneast()" type="radio">
+      </label>
+
+      
+
+    </div>
+
+    
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="form-group shiny-input-radiogroup awesome-radio-class shiny-input-container shiny-input-container-inline shiny-bound-input" id="eastDivisions">
+    <label class="control-label" for="eastDivisions" style="margin-bottom: 5px; ">Radio buttons</label>
+    <div class="shiny-options-group">
+      <div class="radiobs radio-bs radio-bs-primary radio-inline radio-bs-inline">
+          <div id="divisions-page-east">
+        <div class='jumbotron2'><div class="big-text2"><h1>Choose Your Division</h1></div></div>
+        <div class='packages'>
+    <div id='flexcontainereastDivisions'>
+        <div class='row222'>
+            <label for="eastDivisions1" class="column222">      
+            <div class='divisionColumn'>
+                <h1>Atlantic</h1>
+                <table>
+                    <thead class="table-header">
+                    <tr>
+                        <th class="date">Team</th>
+                        <th class="team">Wins</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td class="date">Toronto Raptors</td>
+                    <td class="team">46</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Boston Celtics</td>
+                    <td class="team">43</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Philadelphia 76ers</td>
+                    <td class="team">39</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Brooklyn Nets</td>
+                    <td class="team">30</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">New York Knicks</td>
+                    <td class="team">21</td>
+                    
+                    </tr>
+                    
+                    </tbody>
+                    </table>
+            </div>
+            <input name="eastDivisions" id="eastDivisions1" value="Atlantic" onclick="myFunctionatlantic()" type="radio">
+          </label>
+          <label for="eastDivisions2" class="column222">      
+            <div class='divisionColumn'>
+                <h1>Central</h1>
+                <table>
+                    <thead class="table-header">
+                    <tr>
+                        <th class="date">Team</th>
+                        <th class="team">Wins</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td class="date">Milwaukee Bucks</td>
+                    <td class="team">53</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Indiana Pacers</td>
+                    <td class="team">39</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Chicago Bulls</td>
+                    <td class="team">22</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Detroit Pistons</td>
+                    <td class="team">20</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Cleveland Cavaliers</td>
+                    <td class="team">19</td>
+                    
+                    </tr>
+                    
+                    </tbody>
+                    </table>
+            </div>
+            <input name="eastDivisions" id="eastDivisions2" value="Central" onclick="myFunctioncentral()" type="radio">
+          </label>
+          <label for="eastDivisions3" class="column222">      
+            <div class='divisionColumn'>
+                <h1>Southeast</h1>
+                <table>
+                    <thead class="table-header">
+                    <tr>
+                    <th class="date">Team</th>
+                    <th class="team">Wins</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="date">Miami Heat</td>
+                      <td class="team">41</td>
+                    
+                    </tr>
+                    <tr>
+                      <td class="date">Orlando Magic</td>
+                      <td class="team">30</td>
+                    
+                    </tr>
+                    <tr>
+                      <td class="date">Washington Wizards</td>
+                      <td class="team">24</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Charlotte Hornets</td>
+                    <td class="team">23</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Atlanta Hawks</td>
+                    <td class="team">20</td>
+                    
+                    </tr>
+                    
+                    </tbody>
+                    </table>
+            </div>
+            <input name="eastDivisions" id="eastDivisions3" value="Southeast" onclick="myFunctionsoutheast()" type="radio">
+          </label>
+        
+      </div>
+    
+      
+
+      </div>
+
+
+
+
+
+      </div>
+  </div>
+
+
+
+  
+  </div>
+  </div>
+
+</div>
+  
+
+  
+  
+
+
+
+<div class="form-group shiny-input-radiogroup awesome-radio-class shiny-input-container shiny-input-container-inline shiny-bound-input" id="westDivisions">
+    <label class="control-label" for="westDivisions" style="margin-bottom: 5px; ">Radio buttons</label>
+    <div class="shiny-options-group">
+      <div class="radiobs radio-bs radio-bs-primary radio-inline radio-bs-inline">
+<div id="divisions-page-west">
+    <div class='jumbotron2'><div class="big-text2"><h1>Choose Your Division</h1></div></div>
+    <div class='packages'>
+      <div id='flexcontainerwestDivisions'>
+        <div class='row222'>
+            <label for="westDivisions1" class="column222">      
+            <div class='divisionColumn'>
+                <h1>Northwest</h1>
+                <table>
+                    <thead class="table-header">
+                    <tr>
+                        <th class="date">Team</th>
+                        <th class="team">Wins</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td class="date">Denver Nuggets</td>
+                    <td class="team">43</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Utah Jazz</td>
+                    <td class="team">41</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">OKC Thunder</td>
+                    <td class="team">40</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Portland Trailblazers</td>
+                    <td class="team">29</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Minnesota Timberwolves</td>
+                    <td class="team">19</td>
+                    
+                    </tr>
+                    
+                    </tbody>
+                    </table>
+            </div>
+            <input name="westDivisions" id="westDivisions1" value="Northwest" onclick="myFunctionnorthwest()" type="radio">
+          </label>
+          <label for="westDivisions2" class="column222">      
+            <div class='divisionColumn'>
+                <h1>Pacific</h1>
+                <table>
+                    <thead class="table-header">
+                    <tr>
+                        <th class="date">Team</th>
+                        <th class="team">Wins</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td class="date">LA Lakers</td>
+                    <td class="team">49</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">LA Clippers</td>
+                    <td class="team">44</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Sacramento Kings</td>
+                    <td class="team">28</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Phoenix Suns</td>
+                    <td class="team">26</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Golden State Warriors</td>
+                    <td class="team">15</td>
+                    
+                    </tr>
+                    
+                    </tbody>
+                    </table>
+            </div>
+            <input name="westDivisions" id="westDivisions2" value="Pacific" onclick="myFunctionpacific()" type="radio">
+          </label>
+          <label for="westDivisions3" class="column222">      
+            <div class='divisionColumn'>
+                <h1>Southwest</h1>
+                <table>
+                    <thead class="table-header">
+                    <tr>
+                    <th class="date">Team</th>
+                    <th class="team">Wins</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td class="date">Houston Rockets</td>
+                    <td class="team">40</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Dallas Mavericks</td>
+                    <td class="team">40</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">Memphis Grizzlies</td>
+                    <td class="team">32</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">New Orleans Pelicans</td>
+                    <td class="team">28</td>
+                    
+                    </tr>
+                    <tr>
+                    <td class="date">San Antonio Spurs</td>
+                    <td class="team">27</td>
+                    
+                    </tr>
+                    
+                    </tbody>
+                    </table>
+            </div>
+            <input name="westDivisions" id="westDivisions3" value="Southwest" onclick="myFunctionsouthwest()" type="radio">
+          </label>
+        
+      </div>
+    
+      
+
+      </div>
+      
+      </div>
+      </div>
+    
+  
+    </div>
+
+
+
+  
+</div>
+</div>
+
+
+  
+
+
+    
+
+ 
+
+
+<div class="form-group shiny-input-radiogroup awesome-radio-class shiny-input-container shiny-input-container-inline shiny-bound-input" id="Team">
+    <label class="control-label" for="Team" style="margin-bottom: 5px; ">Radio buttons</label>
+    <div class="shiny-options-group">
+      <div class="radiobs radio-bs radio-bs-primary radio-inline radio-bs-inline">
+        <div id='flexcontainercentral'>
+          <div class='jumbotron5'><div class="big-text4"><h1>Choose Your Team</h1></div></div>
+          <div class='row2'>
+              <label for="Team1" class="column2">      
+              <div class='bucks-column'>
+                  <div class="bucks-border-column">
+                  
+              </div>
+              </div>
+              <input name="Team" id="Team1" value="Milwaukee Bucks" onclick="myFunction2()" type="radio">
+            </label>
+      
+            <label for="Team2" class="column2">      
+              <div class='bulls-column'>
+                  <div class="bulls-border-column">
+                  
+              </div>
+              </div>
+              <input name="Team" id="Team2" value="Chicago Bulls" onclick="myFunction2()" type="radio">
+            </label>
+      
+            <label for="Team3" class="column2">      
+              <div class='cavs-column'>
+                  <div class="cavs-border-column">
+                  
+              </div>
+              </div>
+          
+              <input name="Team" id="Team3" value="Cleveland Cavaliers" onclick="myFunction2()" type="radio">
+            </label>
+      
+          </div>
+      
+          <div class='row2'>
+            <label for="Team4" class="column2">      
+              <div class='pacers-column'>
+                  <div class="pacers-border-column">
+                  
+              </div>
+              </div>
+              <input name="Team" id="Team4" value="Indiana Pacers" onclick="myFunction2()" type="radio">
+            </label>
+      
+            <label for="Team5" class="column2">      
+              <div class='pistons-column'>
+                  <div class="pistons-border-column">
+                  
+              </div>
+              </div>
+              <input name="Team" id="Team5" value="Detroit Pistons" onclick="myFunction2()" type="radio">
+            </label>
+      
+            
+            
+           
+          </div>
+        </div>
+
+        <div id='flexcontaineratlantic'>
+          <div class='jumbotron5'><div class="big-text4"><h1>Choose Your Team</h1></div></div>
+          <div class='row2'>
+              <label for="Team6" class="column2">      
+              <div class='sixers-column'>
+                  <div class="sixers-border-column">
+                  
+              </div>
+              </div>
+              <input name="Team" id="Team6" value="Philadelphia 76ers" onclick="myFunction2()" type="radio">
+            </label>
+      
+            <label for="Team7" class="column2">      
+              <div class='celtics-column'>
+                  <div class="celtics-border-column">
+                  
+              </div>
+              </div>
+              <input name="Team" id="Team7" value="Boston Celtics" onclick="myFunction2()" type="radio">
+            </label>
+      
+            <label for="Team8" class="column2">      
+              <div class='knicks-column'>
+                  <div class="knicks-border-column">
+                  
+              </div>
+              </div>
+          
+              <input name="Team" id="Team8" value="New York Knicks" onclick="myFunction2()" type="radio">
+            </label>
+      
+          </div>
+      
+          <div class='row2'>
+            <label for="Team9" class="column2">      
+              <div class='nets-column'>
+                  <div class="nets-border-column">
+                  
+              </div>
+              </div>
+              <input name="Team" id="Team9" value="Brooklyn Nets" onclick="myFunction2()" type="radio">
+            </label>
+      
+            <label for="Team10" class="column2">      
+              <div class='raptors-column'>
+                  <div class="raptors-border-column">
+                  
+              </div>
+              </div>
+              <input name="Team" id="Team10" value="Toronto Raptors" onclick="myFunction2()" type="radio">
+            </label>
+      
+            
+            
+           
+          </div>
+        </div>
+
+        <div id='flexcontainersoutheast'>
+          <div class='jumbotron5'><div class="big-text4"><h1>Choose Your Team</h1></div></div>
+            <div class='row2'>
+                <label for="Team11" class="column2">      
+                <div class='hawks-column'>
+                    <div class="hawks-border-column">
+                    
+                </div>
+                </div>
+                <input name="Team" id="Team11" value="Atlanta Hawks" onclick="myFunction2()" type="radio">
+              </label>
+        
+              <label for="Team12" class="column2">      
+                <div class='heat-column'>
+                    <div class="heat-border-column">
+                    
+                </div>
+                </div>
+                <input name="Team" id="Team12" value="Miami Heat" onclick="myFunction2()" type="radio">
+              </label>
+        
+              <label for="Team13" class="column2">      
+                <div class='hornets-column'>
+                    <div class="hornets-border-column">
+                    
+                </div>
+                </div>
+            
+                <input name="Team" id="Team13" value="Charlotte Hornets" onclick="myFunction2()" type="radio">
+              </label>
+        
+            </div>
+        
+            <div class='row2'>
+              <label for="Team14" class="column2">      
+                <div class='magic-column'>
+                    <div class="magic-border-column">
+                    
+                </div>
+                </div>
+                <input name="Team" id="Team14" value="Miami Magic" onclick="myFunction2()" type="radio">
+              </label>
+        
+              <label for="Team15" class="column2">      
+                <div class='wizards-column'>
+                    <div class="wizards-border-column">
+                    
+                </div>
+                </div>
+                <input name="Team" id="Team15" value="Washington Wizards" onclick="myFunction2()" type="radio">
+              </label>
+        
+              
+              
+             
+            </div>
+          </div>
+
+        <div id='flexcontainernorthwest'>
+          <div class='jumbotron5'><div class="big-text4"><h1>Choose Your Team</h1></div></div>
+          <div class='row2'>
+              <label for="Team16" class="column2">      
+              <div class='blazers-column'>
+                  <div class="blazers-border-column">
+                  
+              </div>
+              </div>
+              <input name="Team" id="Team16" value="Portland Trailblazers" onclick="myFunction2()" type="radio">
+            </label>
+      
+            <label for="Team17" class="column2">      
+              <div class='jazz-column'>
+                  <div class="jazz-border-column">
+                  
+              </div>
+              </div>
+              <input name="Team" id="Team17" value="Utah Jazz" onclick="myFunction2()" type="radio">
+            </label>
+      
+            <label for="Team18" class="column2">      
+              <div class='nuggets-column'>
+                  <div class="nuggets-border-column">
+                  
+              </div>
+              </div>
+          
+              <input name="Team" id="Team18" value="Denver Nuggets" onclick="myFunction2()" type="radio">
+            </label>
+      
+          </div>
+      
+          <div class='row2'>
+            <label for="Team19" class="column2">      
+              <div class='thunder-column'>
+                  <div class="thunder-border-column">
+                  
+              </div>
+              </div>
+              <input name="Team" id="Team19" value="Oklahoma City Thunder" onclick="myFunction2()" type="radio">
+            </label>
+      
+            <label for="Team20" class="column2">      
+              <div class='wolves-column'>
+                  <div class="wolves-border-column">
+                  
+              </div>
+              </div>
+              <input name="Team" id="Team20" value="Minnesota Timberwolves" onclick="myFunction2()" type="radio">
+            </label>
+      
+           
+            
+           
+          </div>
+        </div>
+        <div id='flexcontainerpacific'>
+          <div class='jumbotron5'><div class="big-text4"><h1>Choose Your Team</h1></div></div>
+            <div class='row2'>
+                <label for="Team21" class="column2">      
+                <div class='clippers-column'>
+                    <div class="clippers-border-column">
+                    
+                </div>
+                </div>
+                <input name="Team" id="Team21" value="Los Angeles Clippers" onclick="myFunction2()" type="radio">
+              </label>
+        
+              <label for="Team22" class="column2">      
+                <div class='kings-column'>
+                    <div class="kings-border-column">
+                    
+                </div>
+                </div>
+                <input name="Team" id="Team22" value="Sacramento Kings" onclick="myFunction2()" type="radio">
+              </label>
+        
+              <label for="Team23" class="column2">      
+                <div class='lakers-column'>
+                    <div class="lakers-border-column">
+                    
+                </div>
+                </div>
+            
+                <input name="Team" id="Team23" value="Los Angeles Lakers" onclick="myFunction2()" type="radio">
+              </label>
+        
+            </div>
+        
+            <div class='row2'>
+              <label for="Team24" class="column2">      
+                <div class='suns-column'>
+                    <div class="suns-border-column">
+                    
+                </div>
+                </div>
+                <input name="Team" id="Team24" value="Phoenix Suns" onclick="myFunction2()" type="radio">
+              </label>
+        
+              <label for="Team25" class="column2">      
+                <div class='warriors-column'>
+                    <div class="warriors-border-column">
+                    
+                </div>
+                </div>
+                <input name="Team" id="Team25" value="Golden State Warriors" onclick="myFunction2()" type="radio">
+              </label>
+        
+             
+              
+             
+            </div>
+          </div>
+
+          <div id='flexcontainersouthwest'>
+            <div class='jumbotron5'><div class="big-text4"><h1>Choose Your Team</h1></div></div>
+            <div class='row2'>
+                <label for="Team26" class="column2">      
+                <div class='grizz-column'>
+                    <div class="grizz-border-column">
+                    
+                </div>
+                </div>
+                <input name="Team" id="Team26" value="Memphis Grizzlies" onclick="myFunction2()" type="radio">
+              </label>
+        
+              <label for="Team27" class="column2">      
+                <div class='mavs-column'>
+                    <div class="mavs-border-column">
+                    
+                </div>
+                </div>
+                <input name="Team" id="Team27" value="Dallas Mavericks" onclick="myFunction2()" type="radio">
+              </label>
+        
+              <label for="Team28" class="column2">      
+                <div class='pelicans-column'>
+                    <div class="pelicans-border-column">
+                    
+                </div>
+                </div>
+            
+                <input name="Team" id="Team28" value="New Orleans Pelicans" onclick="myFunction2()" type="radio">
+              </label>
+        
+            </div>
+        
+            <div class='row2'>
+              <label for="Team29" class="column2">      
+                <div class='rockets-column'>
+                    <div class="rockets-border-column">
+                    
+                </div>
+                </div>
+                <input name="Team" id="Team29" value="Houston Rockets" onclick="myFunction2()" type="radio">
+              </label>
+        
+              <label for="Team30" class="column2">      
+                <div class='spurs-column'>
+                    <div class="spurs-border-column">
+                    
+                </div>
+                </div>
+                <input name="Team" id="Team30" value="San Antonio Spurs" onclick="myFunction2()" type="radio">
+              </label>
+        
+             
+              
+             
+            </div>
+          </div>
+
+          </div>
+  </div>
+  </div>
+  
+
+
+
+  
+ 
+  
+  
+  <div class="form-group shiny-input-radiogroup awesome-radio-class shiny-input-container shiny-input-container-inline shiny-bound-input">
+    <label class="control-label" style="margin-bottom: 5px; ">Radio buttons</label>
+    <div class="shiny-options-group">
+      <div class="radiobs radio-bs radio-bs-primary radio-inline radio-bs-inline">
+        <div id='game-prediction'>
+          <div class='jumbotron5'><div class="big-text4"><h1>Predict the Winner</h1></div></div>
+            <div class='game-prediction-row2'>
+        
+                <button name="home" id="home" type="button" class="action-button shiny-bound-input"> 
+                    {{home_pic33}}
+                
+            </button>
+        
+             
+           
+              <button name="away" id="away" type="button" class="action-button shiny-bound-input">   
+                 
+                {{away_pic33}}
+                
+                  
+              
+            </button>
+        
+            </div>
+              
+              
+             
+        
+          </div>
+          </div>
+  </div>
+</div>
+</div>
+
+  <div id="resuls_page">
+    
+    {{final_results}}
+    
+    <div id="playoff_tables">
+    {{table_playoff_east}}
+
+
+    
+
+
+    {{table_playoff_west}}
+    
+    </div>
+  </div>
+
+  
+
+
+  <script type="text/javascript" src="js104.js"></script>
+</body>
+</html>
